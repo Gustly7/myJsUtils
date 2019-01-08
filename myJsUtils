@@ -1,0 +1,7 @@
+window.sleep = async function (pTime) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve();
+    }, pTime);
+  });
+}
